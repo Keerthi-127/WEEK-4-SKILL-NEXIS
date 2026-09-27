@@ -1,0 +1,21 @@
+import java.util.HashMap;
+
+public class Assignment2_HashMapStudents {
+
+    public static void main(String[] args) {
+
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Keerthi");
+        students.put(102, "Anjali");
+        students.put(103, "Rahul");
+        students.put(104, "Sneha");
+        students.put(105, "Arjun");
+
+        System.out.println("Roll Number -> Student Name");
+
+        for (Integer rollNo : students.keySet()) {
+            System.out.println(rollNo + " -> " + students.get(rollNo));
+        }
+    }
+}
