@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class Assignment1_ArrayListStudents {
+
+    public static void main(String[] args) {
+
+        ArrayList<String> students = new ArrayList<>();
+
+        students.add("Keerthi");
+        students.add("Anjali");
+        students.add("Rahul");
+        students.add("Sneha");
+        students.add("Arjun");
+
+        System.out.println("Student Names:");
+
+        for (String student : students) {
+            System.out.println(student);
+        }
+    }
+}
